@@ -25,7 +25,10 @@ const CardPlans = ({}) => {
           <Paragraph textParagraph="Almoço com Network" />
           <Paragraph textParagraph="Rodada de Perguntas" />
         </div>
-        <ButtonPlan className="bg-second-color mb-4" />
+        <ButtonPlan
+          hrefBtn="https://sun.eduzz.com/2408127"
+          className="bg-second-color mb-4"
+        />
       </div>
       <div
         className="w-full flex flex-col items-center gap-8 "
@@ -48,7 +51,10 @@ const CardPlans = ({}) => {
           <Paragraph textParagraph="Almoço com Network" />
           <Paragraph textParagraph="Rodada de Perguntas" />
         </div>
-        <ButtonPlan className="bg-second-color mb-4" />
+        <ButtonPlan
+          hrefBtn="https://sun.eduzz.com/2408128"
+          className="bg-second-color mb-4"
+        />
       </div>
       <div
         className="w-full flex flex-col items-center gap-8  h-full"
@@ -73,7 +79,10 @@ const CardPlans = ({}) => {
           <Paragraph textParagraph=" Jantar com palestrantes" />
           <Paragraph textParagraph=" Reunião on-line com palestrante" />
         </div>
-        <ButtonPlan className="bg-third-color mb-4" />
+        <ButtonPlan
+          hrefBtn="https://sun.eduzz.com/2408129"
+          className="bg-third-color mb-4"
+        />
       </div>
     </div>
   );

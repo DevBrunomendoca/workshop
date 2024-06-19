@@ -10,7 +10,7 @@ const ButtonPlan: FunctionComponent<ButtonPlanProps> = ({
   hrefBtn,
 }) => {
   return (
-    <a href={hrefBtn}>
+    <a target="_blank" href={hrefBtn}>
       <button
         className={`px-20 py-3 text-first-color rounded-3xl  ${className}`}
       >
