@@ -8,10 +8,35 @@ body {
 .banner-home-mobile {
   background-image: url("/banner-home-mobile.webp");
   background-size: cover;
+  background-position: center;
+}
+.banner-home-desktop {
+  background-image: url("/banner-home-desktop.webp");
+  background-size: cover;
+  background-position: center;
 }
 .banner-about-mobile {
   background-image: url("/banner-about-mobile.webp");
   background-size: cover;
+  background-position: center;
+  height: 120px;
+}
+.banner-about-desktop {
+  background-image: url("/banner-about-desktop.webp");
+  background-size: cover;
+  background-position: center;
+  height: 430px;
+}
+.banner-programation-mobile {
+  background-image: url("/background-progamation-mobile.webp");
+  background-size: cover;
+}
+.banner-programation-desktop {
+  background-image: url("/background-progamation-desktop.webp");
+  background-size: cover;
+}
+.text {
+  content: "O Poder de Relacionar-se";
 }
 
 @layer utilities {

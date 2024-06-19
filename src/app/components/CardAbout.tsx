@@ -15,9 +15,9 @@ const CardAbout: FunctionComponent<CardAboutProps> = ({
   paragraphCard,
 }) => {
   return (
-    <div className="flex flex-col items-center gap-5 px-20">
+    <div className="flex flex-col items-center gap-5 px-20 md:px-6">
       <Image width={86} height={86} alt="Imagem Card" src={urlImg} />
-      <ThirdTitle textThirdTitle={titleCard} />
+      <ThirdTitle className="text-center" textThirdTitle={titleCard} />
       <Paragraph className="text-center" textParagraph={paragraphCard} />
     </div>
   );
