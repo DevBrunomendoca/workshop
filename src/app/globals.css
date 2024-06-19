@@ -9,6 +9,10 @@ body {
   background-image: url("/banner-home-mobile.webp");
   background-size: cover;
 }
+.banner-about-mobile {
+  background-image: url("/banner-about-mobile.webp");
+  background-size: cover;
+}
 
 @layer utilities {
   .text-balance {
