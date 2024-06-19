@@ -46,10 +46,12 @@ export default function Home() {
             <Button
               className="bg-first-color text-fourt-color"
               textBtn="COMPRAR INGRESSOS"
+              href="#plans"
             />
             <Button
               className="bg-transparent text-first-color"
               textBtn="VER PALESTRANTES"
+              href="#programation"
             />
           </div>
         </section>
@@ -87,7 +89,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="px-6">
+        <section className="px-6" id="plans">
           <div className="flex flex-col items-center gap-2">
             <SecondTitle
               clasName="text-center"

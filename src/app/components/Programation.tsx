@@ -215,6 +215,7 @@ const Programation: React.FC = () => {
   }, []);
   return (
     <section
+      id="programation"
       className={`${
         banner ? "banner-programation-mobile" : "banner-programation-desktop"
       } h-full py-10 px-2`}
