@@ -69,7 +69,7 @@ const dataProgramationMatutino: dataProgramationProps[] = [
   {
     id: "7",
     titleCard: "Palestra",
-    hoursCard: "10h45",
+    hoursCard: "11h05",
     nameCard: "BRUNNA ARUDA",
     subtitleCard: "DE ONDE NASCEM OS VENDEDORES",
     paragraphCard:
@@ -78,7 +78,7 @@ const dataProgramationMatutino: dataProgramationProps[] = [
   {
     id: "8",
     titleCard: "Palestra",
-    hoursCard: "10h45",
+    hoursCard: "11h25",
     nameCard: "ÉRICO GERMANO",
     subtitleCard: "PROCESSO DE VENDAS",
     paragraphCard:
@@ -261,7 +261,7 @@ const Programation: React.FC = () => {
       <div>
         <SecondTitle
           clasName="text-2xl text-first-color text-center "
-          textSecondTitle="PROGRAMAÇÃO MATUTINO"
+          textSecondTitle="PROGRAMAÇÃO VESPERTINO"
         />
         <div className="grid grid-cols-2 gap-5 py-8 md:grid-cols-3 max-w-7xl ml-auto mr-auto">
           {dataProgramationVespertino.map((item) => (
