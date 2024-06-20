@@ -12,7 +12,12 @@ const CardPlans = ({}) => {
           className={`w-full bg-second-color flex flex-col items-center py-10`}
           style={{ borderRadius: "15px 15px 0 0" }}
         >
-          <h4 className="text-bold text-sm text-first-color">PRIMEIRO LOTE</h4>
+          <h4 className="text-bold text-sm text-first-color">
+            <s>PRIMEIRO LOTE</s>
+            <span className="pl-2 font-bold text-xl text-red-600">
+              ESGOTADO
+            </span>{" "}
+          </h4>
           <div className="w-20 bg-first-color" style={{ height: "1px" }}></div>
           <h2 className="font-extrabold text-6xl text-first-color pt-4">
             97,00
@@ -26,7 +31,7 @@ const CardPlans = ({}) => {
           <Paragraph textParagraph="Rodada de Perguntas" />
         </div>
         <ButtonPlan
-          hrefBtn="https://sun.eduzz.com/2408127"
+          hrefBtn="https://sun.eduzz.com/2408128"
           className="bg-second-color mb-4"
         />
       </div>
